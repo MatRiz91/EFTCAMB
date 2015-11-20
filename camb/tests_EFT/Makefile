@@ -1,6 +1,6 @@
 script_folder=test_scripts/
 
-all: legacy plot profile stability benchmark spectra
+all: legacy stability plot profile benchmark spectra
 
 spectra:
 	./$(script_folder)test_spectra.sh
